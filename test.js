@@ -1,3 +1,19 @@
+
+function outer() {
+    console.log("inside outer")
+    var a = 100;
+    console.log(a);
+    function inner() {
+        console.log("inside inner")
+        console.log(a)
+    }
+    a = 10
+    return inner
+}
+outer();
+var x = outer();
+x();
+
 // function myFunction(p1, p2) {
 //     return p1 * p2;
 //   }
