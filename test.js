@@ -11,8 +11,21 @@ function outer() {
     return inner
 }
 outer();
-var x = outer();
-x();
+
+for(var i=1; i<4; i++){
+    setTimeout(()=>{
+        console.log(i)
+    },i*1000);
+}
+
+for(let i=1; i<4; i++){
+    setTimeout(()=>{
+        console.log(i)
+    },i*1000);
+}
+
+// var x = outer();
+// x();
 
 // function myFunction(p1, p2) {
 //     return p1 * p2;
