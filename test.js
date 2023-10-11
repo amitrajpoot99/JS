@@ -47,3 +47,4 @@ for(let i=1; i<4; i++){
 //  let a1=30;
 //  let a2=20;
 //  console.log(a1,a2);
+
