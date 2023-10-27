@@ -136,10 +136,9 @@ const output= input.filter((v)=>v.completed);
 
 console.log(output);
 
-const output1= output.map((v)=>{
-    const temp={id v.id, title v.title}
-    ret
-})
+// const output1= output.map((v)=>{
+//     const temp={id v.id, title v.title}
+// })
 
 
 // const output1= output.map((v)=> {

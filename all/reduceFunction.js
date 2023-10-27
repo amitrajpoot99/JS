@@ -8,3 +8,4 @@ console.log("Sum:", outputSum)
 console.log("Average:", outputAvg)
 
 console.log(`Sum: ${outputSum}`);
+//reduce return single value

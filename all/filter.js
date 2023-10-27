@@ -1,6 +1,6 @@
-const arr=[32,12,33,40];
+let arr=[32,12,33,40];
 
-const arr1=arr.filter(function(v){
-   return v>=30;
+arr=arr.filter((e)=>{
+  return e!==12   
 })
-console.log(arr1)
+console.log(arr)

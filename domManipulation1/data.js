@@ -15,6 +15,13 @@ let data=()=>{
                     <td>${employees[i].esal}</td>
                  </tr>`
     }
+ /*    employees.map((emp)=>{
+        adata+= `<tr>
+                    <td>${emp.eid}</td>
+                    <td>${emp.ename}</td>
+                    <td>${emp.esal}</td>
+        </tr>`
+    }) */
     document.getElementById('edata').innerHTML=adata
 
 }
